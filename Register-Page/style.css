@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+.main-1{
+    display: flex;
+    
+}
+
+.left-side{
+    background-image: url("./imgs/lohp_1302x955.png");
+    width: 750px;
+    height: 800px;
+    margin-right: 50px;
+}
+
+.twiter-icon-right{
+    width: 50px;
+    height: 50px;
+    margin: 40px 0 60px 0;
+}
+
+.right-side{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.header{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+.google-button,
+.apple-button{
+    margin-bottom: 15px;
+}
+
+.g-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.a-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.a-btn{
+    font-weight: 700;
+
+}
+
+.or-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.g-btn,
+.a-btn{
+border: none;
+width: 280px;
+height: 40px;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.t-btn{
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1D9BF0;
+    padding: 12px 9px;
+}
+
+.tel-phone{
+    margin-bottom: 5px;
+}
+
+.info-div {
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.info{
+    font-size: 12px;
+}
+
+.undertitle{
+    margin-bottom: 35px;
+}
+
+.under-text{
+    font-size: 20px;
+}
+
+a{
+    color: #1D9BF0;
+    text-decoration: none;
+}
+
+.u-btn{
+    border: 0.2px solid gray;
+    width: 280px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1D9BF0;
+    background-color: #000000;
+}
